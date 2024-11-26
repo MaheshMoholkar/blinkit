@@ -57,4 +57,4 @@ export const DeliveryPartner = mongoose.model(
   "DeliveryPartner",
   deliveryPartnerSchema
 );
-export const AdminSchema = mongoose.model("Admin", adminSchema);
+export const Admin = mongoose.model("Admin", adminSchema);
