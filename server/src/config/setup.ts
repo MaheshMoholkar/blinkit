@@ -1,7 +1,7 @@
 import AdminJS from "adminjs";
 import AdminJSFastify from "@adminjs/fastify";
 import * as AdminJSMongoose from "@adminjs/mongoose";
-import { authenticate, sessionStore } from "./config.js";
+import { authenticate, sessionStore } from "./config.ts";
 import dotenv from "dotenv";
 import { Customer, DeliveryPartner } from "../models/user.ts";
 import Branch from "../models/branch.ts";
